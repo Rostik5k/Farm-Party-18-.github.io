@@ -1,0 +1,49 @@
+.background-container{
+	background-image: url('images/background.gif');
+	height: 80vh; /* vh - viewport height */
+}
+
+.grass-container{
+	height: 20vh;
+    
+	background-color: green;
+}
+
+.farm-party{
+	color: red;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.sun-container{
+	/*display:inline-block;*/
+	position:fixed;
+	right:100px;
+}
+
+.cow-container{
+	position: relative;
+    top: 593px;
+    left: 40px;
+    /*display: inline-block;*/
+}
+
+.cow-container-2{
+	position: fixed;
+    top: 694px;
+    left: 225px;
+}
+
+.sheep-container{
+	position: fixed;
+	top: 694px;
+	left: 368px;
+
+}
+
+.tree-container{
+	position: relative;
+	left: 795px;
+	top: 315px;
+	/*display:inline-block;*/
+}
